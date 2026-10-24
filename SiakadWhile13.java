@@ -15,6 +15,7 @@ public class SiakadWhile13 {
 
         if (nilai < 0 || nilai > 100) {
             System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
+            
             continue;
         }
          if (nilai > 80 && nilai <= 100) {
